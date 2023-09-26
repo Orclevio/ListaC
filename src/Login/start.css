@@ -1,0 +1,56 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.layoutprincipal {
+    height: 100%;
+}
+
+.areaImagemprincipal {
+    height: 500px;
+    object-fit: cover;
+}
+
+.imgprinc {
+    width: 100%;
+    height: 100%;
+}
+
+.botaoprincipal {
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 18px;
+    justify-content: center;
+    text-align: center;
+    background-color: #C64420;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: large;
+
+}
+
+.linksprimeiratela {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    padding: 20px;
+}
+
+.linksprimeiratela a {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: underline;
+    color: black;
+}
+
+@media screen and (min-height: 700px) {
+    .areaImagemprincipal {
+        height: 700px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
